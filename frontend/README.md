@@ -1,6 +1,6 @@
-#partie FRONTEND
+# partie FRONTEND
 
-##Ce programme en vue.js est composé de 5 components
+## Ce programme en vue.js est composé de 5 components
 
 * Accueil
 * CreationTache

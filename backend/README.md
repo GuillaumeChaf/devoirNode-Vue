@@ -1,18 +1,18 @@
-#partie BACKEND
+# partie BACKEND
 
-##Cette API backend est constitutée de 4 routes :
+## Cette API backend est constitutée de 4 routes :
 
 * '/getTaches'
 * '/delete/:id'
 * '/add/:title/:message'
 * '/update/:id/:title/:message'
 
-##pour réaliser cette API, 4 modules ont été nécéssaire :
+## pour réaliser cette API, 4 modules ont été nécéssaire :
 
- cors
- express
- session
- contentType
+* cors
+* express
+* session
+* contentType
 
 Pour chacune des routes, je vais expliquer comment je les ai pensées et réalisées et quelles difficultés j'ai rencontré,
 tout en montrant quelle place jouent les différents modules exportés. Toutes ces routes ont beaucoup de spécifitées communes
